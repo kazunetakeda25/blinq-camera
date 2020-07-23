@@ -1,0 +1,36 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Smart Device Camera Template for HTML, CSS, JS and WebRTC">
+  <meta name="keywords" content="HTML,CSS,JavaScript, WebRTC, Camera">
+  <meta name="author" content="Kasper Kamperman">
+  <title>Mobile First Camera Template</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+  <div id="container">
+    <div id="vid_container">
+        <video id="video" autoplay playsinline></video>
+        <div id="video_overlay">
+          <div id="Styler" style="background: url('img/img-woman-outline2.png') center no-repeat; background-size: contain;">
+    		</div>
+    		<div id="Top" style="position: absolute; "></div>
+    		<div id="Pants" style="position: absolute; "></div>
+        </div>
+    </div>
+    <div id="toast" style="overflow: hidden"><div><img id="img" src="img/ic_info_span_white_256px.png" style="object-fit: contain;"></div><div id="desc" style="font-family: 'Courier New', Courier, monospace"></div></div>
+    <div id="gui_controls">
+        <button id="switchCameraButton" name="switch Camera" type="button" aria-pressed="false"></button>
+        <button id="takePhotoButton" name="take Photo" type="button"></button>
+        <button id="toggleGenderButton" name="toggle Gender" type="button" aria-pressed="false"></button>
+    </div>
+  </div> 
+  <script src="js/DetectRTC.min.js"></script>
+  <script src="js/adapter.min.js"></script>  
+  <script src="js/screenfull.min.js"></script>
+  <script src="js/howler.core.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

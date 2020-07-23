@@ -1,0 +1,26 @@
+[
+    {
+        "man_clothes": true,
+        "is_top": true,
+        "source": "man/1.png",
+        "source_front": "man/1-f.png",
+        "clothes_width": 750,
+        "clothes_height": 880
+    },
+    {
+        "man_clothes": false,
+        "is_top": true,
+        "source": "woman/1.png",
+        "source_front": "woman/1-f.png",
+        "clothes_width": 478,
+        "clothes_height": 891
+    },
+    {
+        "man_clothes": true,
+        "is_top": false,
+        "source": "man/2.png",
+        "source_front": "man/2-f.png",
+        "clothes_width": 580,
+        "clothes_height": 1428
+    }
+]
